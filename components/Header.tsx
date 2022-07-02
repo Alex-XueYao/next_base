@@ -23,8 +23,8 @@ const Header = () => {
 		<header className={`${isScrolled && 'bg-[#141414]'}`}>
 			<div className='flex items-center space-x-2 md:space-x-10'>
 				<img
+					width={40}
 					src='https://raw.githubusercontent.com/Alex-XueYao/picGo/main/imgs/2022/07/012022_07_01_16_35_01.png'
-					width={80}
 					className='cursor-pointer object-cover object-center rounded-md'
 				/>
 
