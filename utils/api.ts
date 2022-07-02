@@ -10,6 +10,8 @@ const config: AxiosRequestConfig = isDev
 	  }
 	: {}
 
+console.log(config)
+
 const api = axios.create(config)
 
 export default api
